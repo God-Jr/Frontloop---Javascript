@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Video player</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="video-ctn">
+        <div class="play-button">
+          <div class="button">
+            <div class="triangle"></div>
+          </div>
+        </div>
+        <video src="./FKJ -Ylang-Ylang.mp4" class="video"></video>
+      </div>
+      <div class="controls">
+        <p class="control" data-control="back">-10s</p>
+        <p class="control" data-control="skip">+10s</p>
+        <p class="control" data-control="reset">Reset</p>
+        <div class="progress-bar">
+          <div class="bar"></div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
